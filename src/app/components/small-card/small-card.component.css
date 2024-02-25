@@ -8,9 +8,12 @@
 	flex-direction: row;
 }
 
+.small-card__photo {
+	min-width: 200px;
+}
 .small-card__photo > img {
 	width: 100%;
-	min-width: 200px;
+
 	margin-right: 20px;
 }
 

@@ -1,21 +1,16 @@
 <div class="container__big-card">
 	<div class="big-card__photo">
-		<img
-			src="https://www.infragistics.com/community/cfs-file/__key/communityserver-blogs-components-weblogfiles/00-00-00-09-43/dev_2D00_tools_2D00_ignite_2D00_ui_2D00_angular_2D00_shield_2D00_5.jpg"
-			alt=""
-			height="200px"
-		/>
+		<img src="{{ photoCover }}" alt="" height="200px" />
 	</div>
 	<div class="big-card__title">
-		<h1><a href="#">Saiu a nova versão do Angular</a></h1>
+		<h1>
+			<a href="#">{{ cardTitle }}</a>
+		</h1>
 	</div>
 	<div class="big-card__description">
 		<p>
 			<a href="#">
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
-				quasi itaque commodi placeat corrupti accusamus, debitis, nisi dolorum
-				doloremque, voluptatem similique eius delectus dignissimos? Qui expedita
-				at doloremque dolor eligendi!
+				{{ cardDescription }}
 			</a>
 		</p>
 	</div>
